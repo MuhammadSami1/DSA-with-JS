@@ -28,17 +28,17 @@ class List {
         }
     }
     // Remove Nodes
-    removeNode(node) {
-        let remove = this.head;
-        if (remove.value === node) {
+    // removeNode(node) {
+    //     let remove = this.head;
+    //     if (remove.value === node) {
 
-        }
-    }
+    //     }
+    // }
 }
 
 let list = new List(2);
 list.appendNode(3);
 list.appendNode(100);
-list.removeNode(1)
+// list.removeNode(1)
 list.display(); // Output: 2, 100, 3 (circular list)
 console.log(list);
